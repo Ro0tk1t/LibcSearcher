@@ -11,7 +11,7 @@
 ## 安装
 
 ```shell
-git clone https://github.com/lieanu/LibcSearcher.git
+git clone https://github.com/Ro0tk1t/LibcSearcher.git
 cd LibcSearcher
 python setup.py develop
 ```
