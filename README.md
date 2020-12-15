@@ -13,7 +13,7 @@
 ```shell
 git clone https://github.com/Ro0tk1t/LibcSearcher.git
 cd LibcSearcher
-python setup.py develop
+python3 setup.py develop
 ```
 
 ## 示例

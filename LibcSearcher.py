@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+# coding=utf-8
 
 import os
 import re
@@ -53,7 +54,7 @@ class LibcSearcher(object):
             print("Please supply more info using \n\tadd_condition(leaked_func, leaked_address).")
             while True:
                 in_id = input(
-                    "You can choose it by hand\nOr type 'exit' to quit:")
+                    "You can choose it by hand\nOr type 'exit' to quit: ")
                 if in_id == "exit" or in_id == "quit":
                     return
                 try:
